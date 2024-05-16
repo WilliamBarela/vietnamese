@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.spectrograph-container {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.playback-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: red;
+    pointer-events: none;
+}
+
+audio {
+    width: 100%;
+    border-radius: 0;
+    margin-top: 5px;
+}
